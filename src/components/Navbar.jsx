@@ -29,7 +29,7 @@ export default function Navbar() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
           ? 'bg-white/95 backdrop-blur-md shadow-md'
-          : 'bg-emerald-900/80 backdrop-blur-sm'
+          : 'bg-amber-950/80 backdrop-blur-sm'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -38,7 +38,7 @@ export default function Navbar() {
           <a href="#trang-chu" className="flex items-center gap-3 group">
             <div
               className={`w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 ${
-                isScrolled ? 'bg-emerald-700' : 'bg-white/20'
+                isScrolled ? 'bg-amber-700' : 'bg-white/20'
               }`}
             >
               <svg
@@ -54,7 +54,7 @@ export default function Navbar() {
             </div>
             <span
               className={`text-lg font-bold transition-colors duration-300 ${
-                isScrolled ? 'text-emerald-800' : 'text-white'
+                isScrolled ? 'text-amber-800' : 'text-white'
               }`}
             >
               Đặc Sản Rươi Quê
@@ -69,7 +69,7 @@ export default function Navbar() {
                 href={link.href}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                   isScrolled
-                    ? 'text-stone-600 hover:text-emerald-700 hover:bg-emerald-50'
+                    ? 'text-stone-600 hover:text-amber-700 hover:bg-amber-50'
                     : 'text-white/80 hover:text-white hover:bg-white/10'
                 }`}
               >
@@ -111,7 +111,7 @@ export default function Navbar() {
               key={link.href}
               href={link.href}
               onClick={handleLinkClick}
-              className="block px-6 py-4 text-stone-700 hover:text-emerald-700 hover:bg-emerald-50 transition-colors duration-200 border-b border-stone-50 font-medium"
+              className="block px-6 py-4 text-stone-700 hover:text-amber-700 hover:bg-amber-50 transition-colors duration-200 border-b border-stone-50 font-medium"
             >
               {link.name}
             </a>

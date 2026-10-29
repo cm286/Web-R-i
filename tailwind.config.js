@@ -11,9 +11,9 @@ export default {
       },
       colors: {
         cream: {
-          50: '#FFFDF7',
-          100: '#FFF8EE',
-          200: '#FFF0DD',
+          50: '#FFFBF0',
+          100: '#FFF5E0',
+          200: '#FFECC7',
         },
       },
       animation: {

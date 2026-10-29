@@ -27,7 +27,7 @@ function ProductCard({ product }) {
           />
         )}
         {product.badge && (
-          <span className="absolute top-3 right-3 bg-emerald-600 text-white text-xs font-semibold px-3 py-1.5 rounded-full shadow-md">
+          <span className="absolute top-3 right-3 bg-amber-600 text-white text-xs font-semibold px-3 py-1.5 rounded-full shadow-md">
             {product.badge}
           </span>
         )}
@@ -43,12 +43,12 @@ function ProductCard({ product }) {
         {/* Price */}
         <div className="mt-4 flex items-baseline gap-1">
           {product.price === 'Liên hệ báo giá' ? (
-            <span className="text-emerald-700 font-semibold italic">
+            <span className="text-amber-700 font-semibold italic">
               Liên hệ báo giá
             </span>
           ) : (
             <>
-              <span className="text-2xl font-bold text-emerald-700">
+              <span className="text-2xl font-bold text-amber-700">
                 {product.price}
               </span>
               {product.unit && (
@@ -61,7 +61,7 @@ function ProductCard({ product }) {
         {/* CTA */}
         <a
           href="#lien-he"
-          className="mt-5 block w-full bg-emerald-700 hover:bg-emerald-800 text-white font-medium py-3 rounded-xl transition-all duration-300 text-center hover:shadow-lg"
+          className="mt-5 block w-full bg-amber-700 hover:bg-amber-800 text-white font-medium py-3 rounded-xl transition-all duration-300 text-center hover:shadow-lg"
         >
           Liên hệ đặt mua
         </a>

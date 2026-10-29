@@ -39,7 +39,7 @@ function DishCard({ dish }) {
         {/* Toggle Detail */}
         <button
           onClick={() => setIsExpanded(!isExpanded)}
-          className="mt-4 inline-flex items-center gap-1.5 text-emerald-700 font-medium hover:text-emerald-800 transition-colors duration-200 text-sm"
+          className="mt-4 inline-flex items-center gap-1.5 text-amber-700 font-medium hover:text-amber-800 transition-colors duration-200 text-sm"
         >
           {isExpanded ? 'Thu gọn' : 'Tìm hiểu thêm'}
           <svg
@@ -59,7 +59,7 @@ function DishCard({ dish }) {
             isExpanded ? 'max-h-60 opacity-100 mt-3' : 'max-h-0 opacity-0'
           }`}
         >
-          <div className="p-4 bg-emerald-50/50 rounded-xl">
+          <div className="p-4 bg-amber-50/50 rounded-xl">
             <p className="text-stone-500 text-sm leading-relaxed">
               {dish.detail}
             </p>
