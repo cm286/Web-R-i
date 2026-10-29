@@ -6,7 +6,7 @@
   "description": "Website giới thiệu và bán đặc sản rươi truyền thống miền Bắc Việt Nam",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node ./node_modules/vite/bin/vite.js build",
     "preview": "vite preview"
   },
   "dependencies": {
